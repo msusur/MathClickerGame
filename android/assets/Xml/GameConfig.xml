@@ -1,0 +1,33 @@
+<GameConfig>
+    <Games using="LanguageConfig">
+      <GameTypes>
+        <Game friendlyName="MW_MENUSELECT_SINGLEPLAYER" iconPath="Game/singleplayer.png"  lock="false" backgroundPath="frame_pink"/>
+        <Game friendlyName="MW_MENUSELECT_MULTIPLAYER" iconPath="Game/splitscreen.png" lock="false" backgroundPath="frame_black"/>
+      </GameTypes>
+      <GameProperties>
+        <IntProp name="PlayerCount" iconPath="PropertyIcons/icon_helmet.png" friendlyName="MW_PROP_PLAYERCOUNT" min="1"  max="2" accrual="1"  default="1"/>
+        <IntProp name="LifeCount" iconPath="PropertyIcons/icon_heart.png" friendlyName="MW_PROP_LIFE_COUNT" min="1"  max="6" accrual="1"  default="3"/>
+        <IntProp name="Gun" iconPath="PropertyIcons/icon_gun.png" friendlyName="MW_PROP_LIFE_COUNT" min="1"  max="6" accrual="1"  default="2"/>
+       <IntProp name="Kill" iconPath="PropertyIcons/icon_kill.png" friendlyName="MW_PROP_LIFE_COUNT" min="1"  max="6" accrual="1"  default="5"/>
+        <IntProp name="Hp" iconPath="PropertyIcons/icon_hp.png" friendlyName="MW_PROP_LIFE_COUNT" min="1"  max="6" accrual="1"  default="5"/>
+        <IntProp name="Helmet" iconPath="PropertyIcons/icon_helmet.png" friendlyName="MW_PROP_LIFE_COUNT" min="1"  max="6" accrual="1"  default="4"/>
+        <IntProp name="Time" iconPath="PropertyIcons/icon_time.png" friendlyName="MW_PROP_TIME"  min="40" max="90"  accrual="10" default="60"/>
+        <IntProp name="Difficulty" iconPath="PropertyIcons/icon_bomb.png" friendlyName="MW_PROP_DIFFICULTY" min="1"  max="10"  accrual="1" default="1"/>
+        <StringProp name="Operation" iconPath="PropertyIcons/icon_kill.png" friendlyName ="MW_PROP_OPERATION" accrual="1" default="0">
+          <PropText>+</PropText>
+          <PropText>-</PropText>
+          <PropText>/</PropText>
+          <PropText>x</PropText>
+          <PropText friendlyName="MW_GAME_PROP_ALL"/>
+        </StringProp>
+      </GameProperties>
+      <GameEffects>
+        <Effect name="Money" icon="Graphics/Icon/icon_money" default="0" max="30" min="6" friendlyName="MW_PROP_EFFGOLD">
+          <EffectInteract  afterThis="PlayerCount" moreIsBetter="false"  ratio="x1"/>
+          <EffectInteract  afterThis="Difficulty" moreIsBetter="true"  ratio="3"/>
+          <EffectInteract  afterThis="LifeCount" moreIsBetter="false" ratio="2" />
+          <EffectInteract  afterThis="Time" moreIsBetter="false" ratio="1" />
+        </Effect>
+      </GameEffects>
+    </Games>
+</GameConfig>

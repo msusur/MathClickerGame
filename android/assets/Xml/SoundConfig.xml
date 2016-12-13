@@ -1,0 +1,11 @@
+<SoundConfig>
+    <Sounds>
+        <Sound name="click"  volume="1" type="sfx" loop="false" randomInDirectory="true" src="Sound/Sfx/Click"/>
+        <Sound name="boom"   type="sfx" volume="1" loop="false" randomInDirectory="true" src="Sound/Sfx/Boom"/>
+        <Sound name="reward"  type="sfx" volume="1" loop="false" randomInDirectory="true" src="Sound/Sfx/Reward"/>
+        <Sound name="money" randomPitch="true" type="sfx" volume="0.6" loop="false" randomInDirectory="true" src="Sound/Sfx/Money"/>
+        <Sound name="error" type="sfx" volume="1" loop="false" randomInDirectory="true" src="Sound/Sfx/Error"/>
+        <Sound name="themeMenuSong"  type="music" volume="1" loop="true" randomInDirectory="false" src="Sound/Music/Theme/Menu"/>
+        <Sound name="themeWarSong"   type="music" volume="1" loop="true" randomInDirectory="false" src="Sound/Music/Theme/War"/>
+      </Sounds>
+</SoundConfig>

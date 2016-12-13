@@ -1,0 +1,16 @@
+<LanguageConfig defaultLocale="en-US">
+  <Languages>
+    <Language name="English" locale="en-US" iconPath="UnitedKingdom"></Language>
+    <Language name="Türkçe" locale="tr-TR" iconPath="Turkey"></Language>
+  </Languages>
+    <Translations>
+      <Translation tag="MW_TITLENAME">
+        <Text locale="en-US">Math Clicker</Text>
+        <Text locale="tr-TR">Math Clicker</Text>
+      </Translation>
+      <Translation tag="MW_LOADING">
+        <Text locale="en-US">Loading</Text>
+        <Text locale="tr-TR">Yükleniyor...</Text>
+      </Translation>
+  </Translations>
+</LanguageConfig>

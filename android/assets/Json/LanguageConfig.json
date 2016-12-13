@@ -1,0 +1,26 @@
+{
+  "defaultLocale":"en-US",
+  "localizedStrings":[ {
+    "friendlyName":"MW_TITLENAME",
+    "transitions:":[{
+      "locale":"en-US",
+      "text":"Math Clicker"
+    },
+      {
+        "locale":"tr-TR",
+        "text":"Math Clicker"
+      }]
+  },
+    {
+      "friendlyName":"MW_LOADING",
+      "transitions:":[{
+        "locale":"en-US",
+        "text":"Loading"
+      },
+        {
+          "locale":"tr-TR",
+          "text":"Yükleniyor"
+        }]
+    }
+  ]
+}

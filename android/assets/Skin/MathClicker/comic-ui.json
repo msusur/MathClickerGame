@@ -1,0 +1,126 @@
+{
+    com.badlogic.gdx.graphics.g2d.BitmapFont: {
+         default-font: { file: comicserifpro.fnt }
+    }
+    com.badlogic.gdx.graphics.Color: {
+        color: {
+            r: 1
+            g: 1
+            b: 1
+            a: 1
+        }
+    }
+    com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+        default: {
+            font: default-font
+            fontColor: color
+            up: btn_box_02_dimmed
+            down: btn_box_04_dimmed
+            over: btn_box_02_dimmed
+        },
+        button-red:{
+            font: default-font
+            fontColor: color
+            up: btn_box_04_red
+            down: btn_box_02_red
+            over: btn_box_04_red
+        }
+    }
+   com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle:{
+       default:{
+            up: btn_play_n
+            down: btn_play_f
+            over: btn_play_n
+       }
+       frame_pink:{
+            up: frame_coin1
+            down: frame_coin1
+            over: frame_coin1
+       }
+       frame_black:{
+            up: frame_coin2
+            down: frame_coin2
+            over: frame_coin2
+       }
+       frame_yellow:{
+            up: frame_coin3
+            down: frame_coin3
+            over: frame_coin3
+       }
+        start-button:{
+            up: btn_play_n
+            down: btn_play_f
+            over: btn_play_n
+        }
+        back-button:{
+            up: btn_back
+            down: btn_back_down
+            over: btn_back
+        }
+		setting-button:{
+			up: btn_cicle_setting_green
+            down: btn_cicle_setting_green_down
+            over: btn_cicle_setting_green
+		}
+		exit-button:{
+			up: btn_cicle_close_red
+            down: btn_cicle_exit_red_down
+            over: btn_cicle_close_red
+		}
+    }
+    com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+        default: {
+            font: default-font
+            fontColor: color
+        }
+    }
+    com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle:{
+        default: {
+            background: background,
+            titleFont: default-font,
+            titleFontColor: color
+        },
+        dialog: {
+            background: background,
+            titleFont: default-font,
+            titleFontColor: color
+        },
+        dialog-modal: {
+            background: background,
+            titleFont: default-font,
+            titleFontColor: color
+        }
+    }
+    com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+        default-horizontal: {
+            background: gage_bar_bg
+            knob: gage_progressbar_red
+        }
+        default-vertical: {
+            background: gage_bar_bg
+            knob: gage_progressbar_red
+        }
+    }
+    com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: default-font
+		fontColorSelected: color
+		fontColorUnselected: color
+		selection: background
+		background: background
+	}
+}
+        com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+        default: {
+            hScroll: gage_bar_bg
+            hScrollKnob: gage_progressbar_red
+            vScroll: gage_bar_bg
+            vScrollKnob: gage_progressbar_red
+        }
+    }
+    com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+            default-horizontal: {
+            knobBefore: gage_progressbar_red
+        }
+    }
+}
